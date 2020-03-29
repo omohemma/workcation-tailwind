@@ -623,7 +623,7 @@ video {
   }
 }
 
-.btn {
+.btn-indigo {
   display: inline-block;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -637,17 +637,44 @@ video {
   font-weight: 600;
 }
 
-.btn:hover {
+.btn-indigo:hover {
   background-color: #7f9cf5;
 }
 
-.btn:focus {
+.btn-indigo:focus {
   outline: 0;
   box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
 }
 
-.btn:active {
+.btn-indigo:active {
   background-color: #5a67d8;
+}
+
+.btn-gray {
+  display: inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #a0aec0;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  font-weight: 600;
+}
+
+.btn-gray:hover {
+  background-color: #cbd5e0;
+}
+
+.btn-gray:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+.btn-gray:active {
+  background-color: #a0aec0;
 }
 
 .sr-only {
